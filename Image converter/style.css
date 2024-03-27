@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding:  20px;
+}
+
+/* Form container */
+#cForm {
+    background-color: #93c0f3;
+    border:  1px solid #000000;
+    border-radius:  5px;
+    padding:  20px;
+    max-width:  400px;
+    margin: auto;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom:  5px;
+    font-weight: bold;
+}
+
+/* Select dropdown */
+#cFormat {
+    width:  100%;
+    padding:  5px;
+    border:  1px solid #ced4da;
+    border-radius:  3px;
+    margin-bottom:  20px;
+}
+
+/* File input */
+#cFile {
+    width:  100%;
+    padding:  5px;
+    border:  1px solid #003163;
+    border-radius:  3px;
+    margin-bottom:  20px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #e61c1c;
+    color: white;
+    border: none;
+    border-radius:  3px;
+    padding:  10px  40px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:  16px;
+    transition-duration:  0.4s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    color: white;
+}
